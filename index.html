@@ -141,6 +141,39 @@
       </div>
       </div>
 
+      <section id="my-keyboards">
+        <div class="container">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Keyboards</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Keygen</h4>
+                <img src="img/keyboards/1.png" alt="keygen" class="keyboard-img"/>
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">Red Dragon</h4>
+                <img src="img/keyboards/2.png" alt="Red Dragon" class="keyboard-img"/>
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="keyboard-box">
+                <h4 class="keyboard-name">keygen</h4>
+                <img src="img/keyboards/3.png" alt="keygen" class="keyboard-img"/>
+                <a href="#" class="btn btn-light keyboard-detail-button">Show Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L34.3,90.7C68.6,85,137,75,206,112C274.3,149,343,235,411,234.7C480,235,549,149,617,122.7C685.7,96,754,128,823,165.3C891.4,203,960,245,1029,229.3C1097.1,213,1166,139,1234,106.7C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
     </section>
     <!-- Akhir Projects -->
@@ -317,9 +350,14 @@
           .catch((error)=> console.error('Error!', error.message))
       });
     </script>
-    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
-      <script>
-        VanillaTilt.init(document.querySelectorAll('.gallery-img'), {max: 25,speed: 400});
-      </script>
+    
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
+		max: 35,
+		speed: 1000,
+    glare:true,
+	});
+</script>
   </body>
 </html>
