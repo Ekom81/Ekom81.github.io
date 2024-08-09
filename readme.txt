@@ -9,5 +9,5 @@ https://michalsnik.github.io/aos/
 https://greensock.com/gsap/
 - Tilt Js (JQuery)
 https://gijsroge.github.io/tilt.js
-- Vanilla Tilt Js
-https://micku7zu.github.io/vanilla-ti...
+- Vanilla Tilt Js (3 D Animasi pada gambar galery)
+https://micku7zu.github.io/vanilla-tilt.js/

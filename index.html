@@ -317,5 +317,9 @@
           .catch((error)=> console.error('Error!', error.message))
       });
     </script>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+      <script>
+        VanillaTilt.init(document.querySelectorAll('.gallery-img'), {max: 25,speed: 400});
+      </script>
   </body>
 </html>
